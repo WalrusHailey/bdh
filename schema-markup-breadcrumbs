@@ -1,0 +1,16 @@
+<div class="bread_all" itemscope itemtype="http://schema.org/BreadcrumbList"> //最上層需要增加的標籤
+  <div class="bread" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"> //每一個屑屑都要增加的標籤
+    <a href="/" itemprop="item"><span itemprop="name">首頁</span></a> //連結都要增加的標籤 //麵包屑名稱都要增加的標籤
+    <meta itemprop="position" content="1" /> //增加序號1
+  </div>
+  <div class="arr"></div>
+  <div class="bread" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"> //每一個屑屑都要增加的標籤
+    <a href="designer_cen.php?designer_id=14" itemprop="item"><span itemprop="name">湯鎮權作品</span></a> //連結都要增加的標籤 //麵包屑名稱都要增加的標籤
+    <meta itemprop="position" content="2" /> //增加序號2
+  </div>
+  <div class="arr"></div>
+  <div class="bread" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"> //每一個屑屑都要增加的標籤
+    <a href="home_cen.php?news_id=121&category=" itemprop="item"><span itemprop="name">身懷絕技‧老上海的華麗轉身</span></a> //連結都要增加的標籤 //麵包屑名稱都要增加的標籤
+    <meta itemprop="position" content="3" /> //增加序號3
+  </div>
+</div>
